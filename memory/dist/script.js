@@ -62,11 +62,11 @@ function endGame(moves, score) {
 	swal({
 		allowEscapeKey: false,
 		allowOutsideClick: false,
-		title: 'Congratulations! You Won!',
-		text: 'With ' + moves + ' Moves and ' + score + ' Stars.\nBoom Shaka Lak!',
+		title: 'Congratulations ! You Won !',
+		text: 'With ' + moves + ' Moves and ' + score + ' Stars.\nThank you for playing with me !',
 		type: 'success',
 		confirmButtonColor: '#9BCB3C',
-		confirmButtonText: 'Play again!'
+		confirmButtonText: 'Play again !'
 	}).then(function(isConfirm) {
 		if (isConfirm) {
 			initGame();
@@ -79,13 +79,13 @@ $restart.on('click', function() {
   swal({
     allowEscapeKey: false,
     allowOutsideClick: false,
-    title: 'Are you sure?',
-    text: "Your progress will be Lost!",
+    title: 'Are you sure ?',
+    text: "Your progress will be Lost !",
     type: 'warning',
     showCancelButton: true,
     confirmButtonColor: '#9BCB3C',
     cancelButtonColor: '#EE0E51',
-    confirmButtonText: 'Yes, Restart Game!'
+    confirmButtonText: 'Yes, Restart Game !'
   }).then(function(isConfirm) {
     if (isConfirm) {
       initGame();

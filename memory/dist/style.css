@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #FF9090;
+  background: #a1b7f3;
   overflow: hidden;
   font-family: "Coda", cursive;
 }
@@ -17,7 +17,7 @@ body {
 .deck {
   width: 345px;
   margin: 0 auto;
-  background: #FFFA62;
+  background: #fffdbe;
   padding: 16px;
   border-radius: 10px;
   box-shadow: 14px 14px 0 0 #000000;
@@ -25,7 +25,7 @@ body {
 .deck .card {
   height: 75px;
   width: 75px;
-  background: #FFCF7F;
+  background: #ffe0aa;
   display: inline-block;
   margin: 0 15px 15px 0;
   line-height: 140px;
@@ -61,11 +61,11 @@ body {
 .deck .card.match {
   transform: rotateY(0);
   cursor: default;
-  background: #9BCB3C;
+  background: #dbff94;
   font-size: 33px;
 }
 .deck .card.notmatch {
-  background: #EE0E51;
+  background: #ff9fbc;
 }
 
 #score-panel {
