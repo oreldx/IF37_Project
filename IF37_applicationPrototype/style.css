@@ -13,7 +13,48 @@ body {
   overflow: hidden;
   font-family: "Coda", cursive;
 }
+ 
+/****** Page d'accueil ******/
 
+#timer {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 3.5em;
+  margin-bottom: 60px;
+}
+
+
+.container {
+  flex: 1;
+  border-radius: 20px;
+  margin: 4%;
+  padding: 5%;
+  background-color: #ff9fbc;
+  transition-duration: 1s;
+}
+
+.square_button {
+  padding: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.square_button:visited {
+  color: black;
+}
+
+.container:hover {
+  box-shadow: 10px 10px 2px 1px #000000;
+  transition-duration: 1s;
+}
+
+/****** Mini-jeux ******/
+/*
+MEMORY 
+*/
 .deck {
   width: 345px;
   margin: 0 auto;
